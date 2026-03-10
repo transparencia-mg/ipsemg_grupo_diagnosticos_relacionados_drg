@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.163,
+  "time": 0.145,
   "errors": [],
   "tasks": [
     {
@@ -11,7 +11,7 @@
         "encoding": "utf-8-sig",
         "format": "csv",
         "hashing": "md5",
-        "name": "drg",
+        "name": "drg_2025",
         "path": "data/DRG_2025.csv",
         "profile": "tabular-data-resource",
         "schema": {
@@ -126,7 +126,7 @@
           "rows": 0
         }
       },
-      "time": 0.073,
+      "time": 0.066,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -32166,7 +32166,7 @@
         "encoding": "utf-8-sig",
         "format": "csv",
         "hashing": "md5",
-        "name": "drg2",
+        "name": "drg_2026",
         "path": "data/DRG_2026.csv",
         "profile": "tabular-data-resource",
         "schema": {
@@ -32281,7 +32281,7 @@
           "rows": 0
         }
       },
-      "time": 0.063,
+      "time": 0.054,
       "scope": [
         "hash-count-error",
         "byte-count-error",
