@@ -10,7 +10,7 @@
       "encoding": "utf-8-sig",
       "format": "csv",
       "hashing": "md5",
-      "name": "drg",
+      "name": "drg_2025",
       "path": "data/DRG_2025.csv",
       "profile": "tabular-data-resource",
       "schema": {
@@ -126,7 +126,7 @@
       "encoding": "utf-8-sig",
       "format": "csv",
       "hashing": "md5",
-      "name": "drg2",
+      "name": "drg_2026",
       "path": "data/DRG_2026.csv",
       "profile": "tabular-data-resource",
       "schema": {
