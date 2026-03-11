@@ -4,7 +4,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "description": "DRG 2025",
       "dialect": {
         "delimiter": ";"
       },
@@ -118,7 +118,7 @@
       "title": "Grupo Diagnósticos Relacionados - DRG 2025."
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "description": "DRG 2026",
       "dialect": {
         "delimiter": ";"
       },
@@ -132,51 +132,99 @@
         "fields": [
           {
             "name": "data_referencia_nm",
-            "type": "integer"
+            "type": "integer",
+            "title": "Data de Referência",
+            "description": "Data de ocorrência hospitalar."
           },
           {
             "name": "reinternacao",
-            "type": "string"
+            "type": "string",
+            "title": "Reinternação",
+            "description": "Indica se o paciente foi reinternado.",
+            "constraints": {
+              "enum": [
+                "Sim",
+                "Não"
+              ]
+            }
           },
           {
             "name": "obito",
-            "type": "string"
+            "type": "string",
+            "title": "Óbito",
+            "description": "Registra se o paciente faleceu durante a internação.",
+            "constraints": {
+              "enum": [
+                "Sim",
+                "Não"
+              ]
+            }
           },
           {
             "name": "hdc",
-            "type": "string"
+            "type": "string",
+            "title": "Hospital Dia Cirúrgico",
+            "description": "Indica se o paciente foi atendido em regime de Hospital Dia Cirúrgico.",
+            "constraints": {
+              "enum": [
+                "Sim",
+                "Não"
+              ]
+            }
           },
           {
             "name": "ucpp",
-            "type": "string"
+            "type": "string",
+            "title": "Unidade de Cuidados Prolongados",
+            "description": "Indica se o paciente foi atendido em Unidade de Cuidados Prolongados.",
+            "constraints": {
+              "enum": [
+                "Sim",
+                "Não"
+              ]
+            }
           },
           {
             "name": "permanencia_real",
-            "type": "geopoint"
+            "type": "geopoint",
+            "title": "Permanência Real",
+            "description": "Tempo total de internação do paciente em dias."
           },
           {
             "name": "especialidade_do_medico_1",
-            "type": "string"
+            "type": "string",
+            "title": "Especialidade do médico 1",
+            "description": "Especialidade do médico responsável, ex. Cardiologia, Clínica Geral"
           },
           {
             "name": "cid_principal",
-            "type": "string"
+            "type": "string",
+            "title": "CID Principal",
+            "description": "Código da Classificação Internacional de Doenças (CID-10) principal."
           },
           {
-            "name": "descricao_do_cid_principal",
-            "type": "string"
+            "name": "descricao_cid_principal",
+            "type": "string",
+            "title": "Descrição do CID Principal",
+            "description": "Nome da doença ou condição associada ao CID Principal."
           },
           {
             "name": "data_de_internacao",
-            "type": "datetime"
+            "type": "datetime",
+            "title": "Data de Internação",
+            "description": "Data em que o paciente foi admitido no hospital."
           },
           {
-            "name": "data_da_alta",
-            "type": "datetime"
+            "name": "data_alta",
+            "type": "datetime",
+            "title": "Data da Alta",
+            "description": "Data em que o paciente recebeu alta ou foi liberado."
           },
           {
             "name": "numero_de_atendimento",
-            "type": "integer"
+            "type": "string",
+            "title": "Número de Atendimento",
+            "description": "Identificador único do atendimento hospitalar."
           }
         ]
       },
