@@ -1,0 +1,140 @@
+{
+  "name": "ipsemg_grupo_diagnosticos_relacionados_drg",
+  "owner_org": "instituto-de-previdencia-dos-servidores-do-estado-de-minas-gerais-ipsemg",
+  "profile": "data-package",
+  "resources": [
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "drg_2025",
+      "path": "data/DRG_2025.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "data_referencia_nm",
+            "type": "integer"
+          },
+          {
+            "name": "reinternacao",
+            "type": "string"
+          },
+          {
+            "name": "obito",
+            "type": "string"
+          },
+          {
+            "name": "hdc",
+            "type": "string"
+          },
+          {
+            "name": "ucpp",
+            "type": "string"
+          },
+          {
+            "name": "permanencia_real",
+            "type": "geopoint"
+          },
+          {
+            "name": "especialidade_do_medico_1",
+            "type": "string"
+          },
+          {
+            "name": "cid_principal",
+            "type": "string"
+          },
+          {
+            "name": "descricao_do_cid_principal",
+            "type": "string"
+          },
+          {
+            "name": "data_de_internacao",
+            "type": "datetime"
+          },
+          {
+            "name": "data_da_alta",
+            "type": "datetime"
+          },
+          {
+            "name": "numero_de_atendimento",
+            "type": "string"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    },
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "drg_2026",
+      "path": "data/DRG_2026.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "data_referencia_nm",
+            "type": "integer"
+          },
+          {
+            "name": "reinternacao",
+            "type": "string"
+          },
+          {
+            "name": "obito",
+            "type": "string"
+          },
+          {
+            "name": "hdc",
+            "type": "string"
+          },
+          {
+            "name": "ucpp",
+            "type": "string"
+          },
+          {
+            "name": "permanencia_real",
+            "type": "geopoint"
+          },
+          {
+            "name": "especialidade_do_medico_1",
+            "type": "string"
+          },
+          {
+            "name": "cid_principal",
+            "type": "string"
+          },
+          {
+            "name": "descricao_do_cid_principal",
+            "type": "string"
+          },
+          {
+            "name": "data_de_internacao",
+            "type": "datetime"
+          },
+          {
+            "name": "data_da_alta",
+            "type": "datetime"
+          },
+          {
+            "name": "numero_de_atendimento",
+            "type": "integer"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    }
+  ],
+  "title": "Ipsemg_grupo_diagnosticos_relacionados_drg"
+}
